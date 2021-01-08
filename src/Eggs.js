@@ -16,20 +16,19 @@ class Eggs extends Component {
     handleClick = () => {
         const x = window.innerWidth * Math.random();
         const y = window.innerHeight * Math.random();
+        const img = random(this.state.eggImg)
         this.setState(prevState => ({
-            eggs: [...prevState.eggs, { x, y }]
+            eggs: [...prevState.eggs, { x, y, img }]
         }));
     }
 
     render() {
-        let rand = random(this.state.eggImg)
-        console.log(rand)
-
         const eggs = this.state.eggs.map((egg, i) => (
+
             <img
                 key={i}
-                src={rand}
-                className='egg'
+                src={egg.img}
+                className='Egg'
                 style={{ top: `${egg.y}px`, left: `${egg.x}px` }}
                 alt="Brown Egg"
             />
