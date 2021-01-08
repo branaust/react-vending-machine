@@ -1,0 +1,16 @@
+.Eggs{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.egg{
+    height: 10rem;
+    position: absolute;
+    z-index: -1;
+}
