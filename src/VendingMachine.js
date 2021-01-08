@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './VendingMachine.css'
 import VendingMachineImg from './VendingMachine.jpg'
+import { Link } from 'react-router-dom'
 
 class VendingMachine extends Component {
 
@@ -16,9 +17,9 @@ class VendingMachine extends Component {
                 </h1>
 
                 <ul className="VendingMachine-links">
-                    <li>Eggs</li>
-                    <li>Sushi</li>
-                    <li>Veggies</li>
+                    <li ><Link to="/Eggs" className="link">Eggs</Link></li>
+                    <li><Link to="/Sushi" className="link">Sushi</Link></li>
+                    <li><Link to="/Veggies" className="link">Veggies</Link></li>
                 </ul>
             </div>
         )

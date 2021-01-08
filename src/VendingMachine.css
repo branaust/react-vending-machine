@@ -29,8 +29,15 @@
   flex-direction: column;
   text-align: center;
   align-items: start;
+  text-decoration: none;
 }
 
 li{
   margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+  color: #fff;
 }
