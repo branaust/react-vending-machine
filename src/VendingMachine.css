@@ -15,4 +15,22 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 35rem;
+    margin-left: 10rem;
+}
+
+.VendingMachine-links{
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 30px;
+  cursor: pointer; 
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+}
+
+li{
+  margin-bottom: 10px;
 }

@@ -14,6 +14,12 @@ class VendingMachine extends Component {
                 <h1
                     className="VendingMachine-p">WE GOT THE HEALTHIEST OF SNACKS #NOMNOMNOM
                 </h1>
+
+                <ul className="VendingMachine-links">
+                    <li>Eggs</li>
+                    <li>Sushi</li>
+                    <li>Veggies</li>
+                </ul>
             </div>
         )
     }
