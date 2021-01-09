@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Egg.css'
 import Egg1 from './Egg1.png'
 import Egg2 from './Egg2.png'
+import Message from './Message'
 import { random } from './helpers'
 
 class Eggs extends Component {
@@ -35,9 +36,12 @@ class Eggs extends Component {
         ));
         return (
             < div className="Eggs">
+
                 <h1>
                     EGG EGG EGG
                 </h1>
+
+
                 <button className="Egg-btn" onClick={this.handleClick}>{this.state.eggs.length} Eggs</button>
                 {eggs}
             </div >

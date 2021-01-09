@@ -1,0 +1,8 @@
+.Message{
+    padding:2rem;
+    margin:1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(71, 71, 71);
+    text-transform: uppercase;
+    border-radius: 10px;
+}

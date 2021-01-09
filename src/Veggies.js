@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Veggies.css'
+import Message from './Message'
 import Carrot from './Carrot.svg'
 import './Veggies.css'
 
@@ -12,9 +13,12 @@ class Veggies extends Component {
                     src={Carrot}
                     alt="Carrot"
                 />
-                <h1>
-                    VEG IN MY WEDGE
-                </h1>
+                <Message>
+                    <h1>
+                        VEG IN MY WEDGE
+                     </h1>
+                </Message>
+
                 <img
                     className="Carrot1-img"
                     src={Carrot}
